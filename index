@@ -1,2 +1,13 @@
 echo "Hello Git!" > hello.txt
-hey this is JAGAN B 
+hey this is JAGAN B
+echo "# git-1" >> README.md          # Create a README file
+git init                             # Initialize a new Git repository
+git add README.md                    # Add the README file
+git commit -m "first commit"         # Commit the file
+git branch -M main                   # Rename the default branch to 'main'
+git remote add origin https://github.com/Babu-Jagan/git-1.git  # Link to GitHub
+git push -u origin main              # Push to GitHub
+ 
+
+git commit 
+
